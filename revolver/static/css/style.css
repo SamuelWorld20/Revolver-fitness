@@ -1,0 +1,224 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+h1 {
+  font-family: 'Martian Mono', monospace;
+}
+h2 {
+  font-family: 'Martian Mono', monospace;
+}
+h3 {
+  font-family: 'Martian Mono', monospace;
+}
+h4 {
+  font-family: 'Martian Mono', monospace;
+}
+h5 {
+  font-family: 'Martian Mono', monospace;
+}
+h6 {
+  font-family: 'Martian Mono', monospace;
+}
+p{
+  font-family: 'Poppins', sans-serif;
+}
+#first-menu{margin-left: 470px;margin-top: -20px;}#second-menu{margin-left: 720px;margin-top: -20px;}
+#register{margin-left: 850px;margin-top: -50px;color:#ff7300;}#signin{margin-top: -50px;color: #ff7300;}.navbar-brand{margin-left: 50px;}#menu{margin-right: 200px;}
+#rule{
+    color:black;
+    width: 400px;
+}#h:hover{
+    background-color: #0d6efd;
+    border-radius: 10px;
+}#t:hover{
+    background-color: #0d6efd;
+    border-radius: 10px;
+}
+.carousel {
+    margin-top: -6rem;
+}
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 50rem;
+  }
+#s{
+  margin-top: 100px;
+}  
+nav{
+  background-color: rgba(0, 0, 0, 0.438);
+}
+a:hover{
+    color:#ff7300 !important
+}
+a:focus{
+  color:#ff7300;
+}
+ @media screen and (max-width:768px) {
+  #largecircle{
+    display: none;
+  }
+#smallcircle{
+  display: none;
+}
+#boxblue{
+  display: none;
+}
+#gallary1{
+  margin-top: 500px;
+}
+#gallary2{
+  margin-top: 300px;
+}
+#gallary3{
+  margin-top: 100px;
+}
+#gallary4{
+  margin-top: -100px;
+}
+#gallary5{
+  margin-top: -100px;
+}#gallary6{
+  margin-top: -100px;
+}#gallary7{
+  margin-top: -100px;
+}#gallary8{
+  margin-top: -100px;
+}
+#pex{
+  background-color: white;
+}
+#infi{
+  width: 378px;
+}
+#nl{
+  margin-top: -550px;
+}
+#girl{
+  margin-left: -140px;
+}
+#expimg{
+  width: 405px;
+  height: 405px;
+}
+#abt{
+  width: 340px;
+}
+#sbt{
+  margin-top: 250px;
+}
+}
+@media screen and (max-width:1400px) and (min-width:768px) {
+  #pex{
+    background-color: black;
+  }
+}
+@media screen and (max-width:991px) {
+  #largecircle{
+    display: none;
+  }
+#smallcircle{
+  display: none;
+}  
+#vcol{
+  margin-top: 30px;
+  margin-left: -30px;
+}
+#scol{
+  margin-top: 20px;
+  margin-left: 10px;
+}
+#gcol{
+  margin-top: 20px;
+  margin-left: 10px;
+}
+#nl{
+  margin-top: -550px;
+} 
+}
+@media screen and (max-width:592px) {
+  #vcol{
+    margin-top: 200px;
+  }
+}
+@media screen and (max-width:991px) {
+  #scol{
+    margin-top: 30px;
+  }
+  #boxblue{
+    display: none;
+  }
+}
+#about-carousel:before {
+  -moz-transition: opacity 3s ease;
+  -webkit-transition: opacity 3s ease;
+  -ms-transition: opacity 3s ease;
+  transition: opacity 3s ease;
+  -moz-transition-delay: 1.25s;
+  -webkit-transition-delay: 1.25s;
+  -ms-transition-delay: 1.25s;
+  transition-delay: 1.25s;
+  content: '';
+  display: block;
+  background-color:#ff7300;;
+  height: 100%;
+  left: 0;
+  opacity: 0.65;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.carousel:before {
+  -moz-transition: opacity 3s ease;
+  -webkit-transition: opacity 3s ease;
+  -ms-transition: opacity 3s ease;
+  transition: opacity 3s ease;
+  -moz-transition-delay: 1.25s;
+  -webkit-transition-delay: 1.25s;
+  -ms-transition-delay: 1.25s;
+  transition-delay: 1.25s;
+  content: '';
+  display: block;
+  background-color: #000;
+  height: 100%;
+  left: 0;
+  opacity: 0.65;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+ #samCarousel:before {
+  -moz-transition: opacity 3s ease;
+  -webkit-transition: opacity 3s ease;
+  -ms-transition: opacity 3s ease;
+  transition: opacity 3s ease;
+  -moz-transition-delay: 1.25s;
+  -webkit-transition-delay: 1.25s;
+  -ms-transition-delay: 1.25s;
+  transition-delay: 1.25s;
+  content: '';
+  display: block;
+  background-color:#ff7300;
+  height: 100%;
+  left: 0;
+  opacity: 0.65;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+@media screen and (max-width:1400px) and (min-width: 991px) {
+  #width{
+    padding-right: 1078px;
+  }
+}
+.js-gotop{
+  margin-left: 90%;
+  margin-bottom: 2%;
+}
